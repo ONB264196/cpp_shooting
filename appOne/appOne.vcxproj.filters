@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{b133cec7-5306-4ad6-96a8-a19e64073d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{19af0db9-342b-4dd6-a94b-d6550e811afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\base">
+      <UniqueIdentifier>{d70b2c26-3728-4d17-8427-e47faf73df79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{51e9f3a7-888c-4bd6-a787-f2c3c3d8b459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAME.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_CLEAR.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OVER.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>scene\base</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>container</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.cpp" />
+    <ClCompile Include="ENEMIES.cpp" />
+    <ClCompile Include="BULLETS.cpp" />
+    <ClCompile Include="PLAYER_BULLETS.cpp" />
+    <ClCompile Include="ENEMY_BULLETS.cpp" />
+    <ClCompile Include="HP_GAUGE.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_CLEAR.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OVER.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE.h">
+      <Filter>scene\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER.h" />
+    <ClInclude Include="ENEMIES.h" />
+    <ClInclude Include="BULLETS.h" />
+    <ClInclude Include="PLAYER_BULLETS.h" />
+    <ClInclude Include="ENEMY_BULLETS.h" />
+    <ClInclude Include="HP_GAUGE.h" />
+  </ItemGroup>
+</Project>
